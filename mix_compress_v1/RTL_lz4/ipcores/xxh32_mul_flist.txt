@@ -1,0 +1,15 @@
+# Output products list for <xxh32_mul>
+_xmsgs\pn_parser.xmsgs
+xxh32_mul.asy
+xxh32_mul.gise
+xxh32_mul.ngc
+xxh32_mul.sym
+xxh32_mul.v
+xxh32_mul.veo
+xxh32_mul.xco
+xxh32_mul.xise
+xxh32_mul\doc\mult_gen_ds255.pdf
+xxh32_mul\doc\mult_gen_v11_2_readme.txt
+xxh32_mul\doc\mult_gen_v11_2_vinfo.html
+xxh32_mul_flist.txt
+xxh32_mul_xmdf.tcl

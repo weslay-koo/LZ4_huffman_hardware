@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/ipcores/xxh32_mul.v" Line 1534: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">glbl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/select_network.v" Line 43: Parameter declaration becomes local in <arg fmt="%s" index="1">select_network</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/select_network.v" Line 44: Parameter declaration becomes local in <arg fmt="%s" index="1">select_network</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/select_network.v" Line 45: Parameter declaration becomes local in <arg fmt="%s" index="1">select_network</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/select_network.v" Line 46: Parameter declaration becomes local in <arg fmt="%s" index="1">select_network</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/select_network.v" Line 47: Parameter declaration becomes local in <arg fmt="%s" index="1">select_network</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"d:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">glbl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/lz4_top_v3.v" Line 201: Port <arg fmt="%s" index="1">ram_omask</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/lz4_top_v3.v" Line 250: Port <arg fmt="%s" index="1">shifter_overflow</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="Simulator" num="918" delta="unknown" >&quot;<arg fmt="%s" index="1">F:/LZ4/mix_compress/mix_compress_v1/simulation/mix_compression_top_tb.v</arg>&quot; Line <arg fmt="%d" index="2">376</arg>. System function $<arg fmt="%s" index="3">fscanf</arg> is used as system task. This system function should have a LHS e.g. x=$<arg fmt="%s" index="4">fscanf</arg>()
+</msg>
+
+<msg type="warning" file="Simulator" num="918" delta="unknown" >&quot;<arg fmt="%s" index="1">F:/LZ4/mix_compress/mix_compress_v1/simulation/mix_compression_top_tb.v</arg>&quot; Line <arg fmt="%d" index="2">524</arg>. System function $<arg fmt="%s" index="3">value$plusargs</arg> is used as system task. This system function should have a LHS e.g. x=$<arg fmt="%s" index="4">value$plusargs</arg>()
+</msg>
+
+</messages>
+

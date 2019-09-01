@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="mix_compress_v1" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/bit_len_gen F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|bit_len_gen.v</ClosedNode>
+         <ClosedNode>/bl_table F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|bl_table.v</ClosedNode>
+         <ClosedNode>/code_lookup_v2 F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|code_lookup_v2.v</ClosedNode>
+         <ClosedNode>/encode_glue_v2 F:|LZ4|mix_compress|mix_compress_v1|RTL_lz4|encode_glue.v</ClosedNode>
+         <ClosedNode>/encode_v2 F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|encode_v2.v</ClosedNode>
+         <ClosedNode>/encode_v3 F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|encode_v2.v</ClosedNode>
+         <ClosedNode>/encode_v3 F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|encode_v3.v</ClosedNode>
+         <ClosedNode>/fifo_16x16bit F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|fifo_16x16bit.v</ClosedNode>
+         <ClosedNode>/fifo_16x20bit F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|fifo_16x20bit.v</ClosedNode>
+         <ClosedNode>/fifo_16x47bit F:|LZ4|mix_compress|mix_compress_v1|RTL_lz4|fifo_16x47bit.v</ClosedNode>
+         <ClosedNode>/freq_ram_256x18bit F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|freq_ram_256x18bit.v</ClosedNode>
+         <ClosedNode>/heap_sorter_v3 F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|heap_sorter_v3.v</ClosedNode>
+         <ClosedNode>/huffman_encoder_v3 F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|huffman_encoder_v3.v</ClosedNode>
+         <ClosedNode>/huffman_encoder_v3 F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|huffman_encoder_v3.v/U_bit_len_gen - bit_len_gen/U_blcount_1 - reg_array_16x9bit</ClosedNode>
+         <ClosedNode>/huffman_encoder_v3 F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|huffman_encoder_v3.v/U_bit_len_gen - bit_len_gen/U_blcount_2 - reg_array_16x9bit</ClosedNode>
+         <ClosedNode>/huffman_encoder_v3 F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|huffman_encoder_v3.v/U_encode - encode_v2/U_code_lookup_2 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/huffman_encoder_v3 F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|huffman_encoder_v3.v/U_encode - encode_v2/U_code_lookup_3 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/huffman_encoder_v3 F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|huffman_encoder_v3.v/U_encode - encode_v2/U_code_lookup_4 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/huffman_encoder_v3 F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|huffman_encoder_v3.v/U_freq_ram_256x18bit - freq_ram_256x18bit</ClosedNode>
+         <ClosedNode>/huffman_encoder_v3 F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|huffman_encoder_v3.v/U_heap_sorter - heap_sorter_v3</ClosedNode>
+         <ClosedNode>/huffman_encoder_v3 F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|huffman_encoder_v3.v/U_heap_sorter - heap_sorter_v3/U_select_network - select_network</ClosedNode>
+         <ClosedNode>/huffman_encoder_v3 F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|huffman_encoder_v3.v/U_little_root_heap - little_root_heap</ClosedNode>
+         <ClosedNode>/huffman_encoder_v3 F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|huffman_encoder_v3.v/U_tree_build - tree_build</ClosedNode>
+         <ClosedNode>/huffman_encoder_v4 F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|huffman_encoder_v3.v</ClosedNode>
+         <ClosedNode>/little_root_heap F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|little_root_heap.v</ClosedNode>
+         <ClosedNode>/lz4_top_v3 F:|LZ4|mix_compress|mix_compress_v1|RTL_lz4|lz4_top_v3.v</ClosedNode>
+         <ClosedNode>/lz4_top_v3 F:|LZ4|mix_compress|mix_compress_v1|RTL_lz4|lz4_top_v3.v/U_byte_addressing - byte_addressing_v4</ClosedNode>
+         <ClosedNode>/lz4_top_v3 F:|LZ4|mix_compress|mix_compress_v1|RTL_lz4|lz4_top_v3.v/U_hash_table - hash_table_v3</ClosedNode>
+         <ClosedNode>/lz4_top_v3 F:|LZ4|mix_compress|mix_compress_v1|RTL_lz4|lz4_top_v3.v/U_lz4_buffer - lz4_buffer_v2</ClosedNode>
+         <ClosedNode>/lz4_top_v3 F:|LZ4|mix_compress|mix_compress_v1|RTL_lz4|lz4_top_v3.v/U_lz4_encoder - lz4_encoder_v3</ClosedNode>
+         <ClosedNode>/match_fifo F:|LZ4|mix_compress|mix_compress_v1|RTL_lz4|match_fifo.v</ClosedNode>
+         <ClosedNode>/mix_compression_top E:|Xilinx_Project|LZ4_projects|mix_compression|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4</ClosedNode>
+         <ClosedNode>/mix_compression_top E:|Xilinx_Project|LZ4_projects|mix_compression|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_bit_len_gen - bit_len_gen</ClosedNode>
+         <ClosedNode>/mix_compression_top E:|Xilinx_Project|LZ4_projects|mix_compression|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_bl_table - bl_table</ClosedNode>
+         <ClosedNode>/mix_compression_top E:|Xilinx_Project|LZ4_projects|mix_compression|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_encode - encode_v3/U_code_lookup_1 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top E:|Xilinx_Project|LZ4_projects|mix_compression|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_encode - encode_v3/U_code_lookup_2 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top E:|Xilinx_Project|LZ4_projects|mix_compression|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_encode - encode_v3/U_code_lookup_3 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top E:|Xilinx_Project|LZ4_projects|mix_compression|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_encode - encode_v3/U_code_lookup_4 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top E:|Xilinx_Project|LZ4_projects|mix_compression|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_freq_ram_256x18bit - freq_ram_256x18bit</ClosedNode>
+         <ClosedNode>/mix_compression_top E:|Xilinx_Project|LZ4_projects|mix_compression|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_heap_sorter - heap_sorter_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top E:|Xilinx_Project|LZ4_projects|mix_compression|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_little_root_heap - little_root_heap</ClosedNode>
+         <ClosedNode>/mix_compression_top E:|Xilinx_Project|LZ4_projects|mix_compression|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_tree_build - tree_build</ClosedNode>
+         <ClosedNode>/mix_compression_top E:|Xilinx_Project|LZ4_projects|mix_compression|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_vlc_table - vlc_table_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top E:|Xilinx_Project|LZ4_projects|mix_compression|mix_compress_v1|RTL_mux|mix_compression_top.v/U_lz4 - lz4_top_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_lz4|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_lz4|mix_compression_top.v/U_lz4 - lz4_top_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v3/U_bit_len_gen - bit_len_gen</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v3/U_bl_table - bl_table</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v3/U_encode - encode_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v3/U_freq_ram_256x18bit - freq_ram_256x18bit</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v3/U_heap_sorter - heap_sorter_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v3/U_little_root_heap - little_root_heap</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v3/U_tree_build - tree_build</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v3/U_vlc_table - vlc_table_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_bit_len_gen - bit_len_gen</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_bl_table - bl_table</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_encode - encode_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_encode - encode_v3/U_code_lookup_1 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_encode - encode_v3/U_code_lookup_2 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_encode - encode_v3/U_code_lookup_3 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_encode - encode_v3/U_code_lookup_4 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_freq_ram_256x18bit - freq_ram_256x18bit</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_heap_sorter - heap_sorter_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_little_root_heap - little_root_heap</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_tree_build - tree_build</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v4/U_vlc_table - vlc_table_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v5</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v5/U_bit_len_gen - bit_len_gen</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v5/U_bl_table - bl_table</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v5/U_encode - encode_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v5/U_freq_ram_256x18bit - freq_ram_256x18bit</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v5/U_heap_sorter - heap_sorter_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v5/U_little_root_heap - little_root_heap</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v5/U_tree_build - tree_build_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v5/U_tree_build - tree_build_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v5/U_vlc_table - vlc_table_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_lz4 - lz4_top_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_lz4 - lz4_top_v3/U_byte_addressing - byte_addressing_v4</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_lz4 - lz4_top_v3/U_hash_table - hash_table_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_lz4 - lz4_top_v3/U_lz4_buffer - lz4_buffer_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_lz4 - lz4_top_v3/U_lz4_encoder - lz4_encoder_v3/U_encode_glue - encode_glue_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_lz4 - lz4_top_v3/U_lz4_encoder - lz4_encoder_v3/U_unmatch_fifo - unmatch_fifo_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_mux|mix_compression_top.v/U_lz4 - lz4_top_v3/U_xxh32_calc - xxh32_calc_v2</ClosedNode>
+         <ClosedNode>/tree_build F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|tree_build.v</ClosedNode>
+         <ClosedNode>/tree_down_traversal F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|tree_down_traversal.v</ClosedNode>
+         <ClosedNode>/vlc_table_v3 F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|vlc_table_v3.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>U_cascade_logic - cascade_logic (F:/LZ4/mix_compress/mix_compress_v1/RTL_mux/cascade_logic.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000226000000020000000000000000000000000200000064ffffffff000000810000000300000002000002260000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>U_cascade_logic - cascade_logic (F:/LZ4/mix_compress/mix_compress_v1/RTL_mux/cascade_logic.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000024f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000024f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>RTL_lz4\shifter_match.v</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >52</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000001010000000000000000000000000000000000000263000000040101000100000000000000000000000064ffffffff000000810000000000000004000001630000000100000000000000240000000100000000000000780000000100000000000000640000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>RTL_lz4\shifter_match.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000121000000010001000100000000000000000000000064ffffffff000000810000000000000001000001210000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000133000000010000000100000000000000000000000064ffffffff000000810000000000000001000001330000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000024f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000024f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/huffman_encode_tb E:|Xilinx_Project|LZ4_projects|mix_compression|mix_compress_v1|simulation|huffman_encode_tb.v</ClosedNode>
+         <ClosedNode>/huffman_encode_tb E:|Xilinx_Project|LZ4_projects|mix_compression|mix_compress_v1|simulation|huffman_encode_tb.v/uut - huffman_encoder_v4</ClosedNode>
+         <ClosedNode>/huffman_encode_tb E:|xilinx_project|LZ4_proj|mix_compression|mix_compress_v1|simulation|huffman_encode_tb.v</ClosedNode>
+         <ClosedNode>/huffman_encode_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|huffman_encode_tb.v/uut - huffman_encoder_v3</ClosedNode>
+         <ClosedNode>/huffman_encode_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|huffman_encode_tb.v/uut - huffman_encoder_v4</ClosedNode>
+         <ClosedNode>/huffman_encode_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|huffman_encode_tb.v/uut - huffman_encoder_v5/U_bit_len_gen - bit_len_gen</ClosedNode>
+         <ClosedNode>/huffman_encode_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|huffman_encode_tb.v/uut - huffman_encoder_v5/U_bl_table - bl_table</ClosedNode>
+         <ClosedNode>/huffman_encode_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|huffman_encode_tb.v/uut - huffman_encoder_v5/U_encode - encode_v3</ClosedNode>
+         <ClosedNode>/huffman_encode_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|huffman_encode_tb.v/uut - huffman_encoder_v5/U_encode - encode_v3/U_code_lookup_1 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/huffman_encode_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|huffman_encode_tb.v/uut - huffman_encoder_v5/U_encode - encode_v3/U_code_lookup_2 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/huffman_encode_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|huffman_encode_tb.v/uut - huffman_encoder_v5/U_encode - encode_v3/U_code_lookup_3 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/huffman_encode_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|huffman_encode_tb.v/uut - huffman_encoder_v5/U_encode - encode_v3/U_code_lookup_4 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/huffman_encode_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|huffman_encode_tb.v/uut - huffman_encoder_v5/U_freq_ram_256x18bit - freq_ram_256x18bit</ClosedNode>
+         <ClosedNode>/huffman_encode_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|huffman_encode_tb.v/uut - huffman_encoder_v5/U_heap_sorter - heap_sorter_v3</ClosedNode>
+         <ClosedNode>/huffman_encode_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|huffman_encode_tb.v/uut - huffman_encoder_v5/U_little_root_heap - little_root_heap</ClosedNode>
+         <ClosedNode>/huffman_encode_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|huffman_encode_tb.v/uut - huffman_encoder_v5/U_tree_build - tree_build_v2</ClosedNode>
+         <ClosedNode>/huffman_encode_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|huffman_encode_tb.v/uut - huffman_encoder_v5/U_tree_build - tree_build_v3</ClosedNode>
+         <ClosedNode>/huffman_encode_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|huffman_encode_tb.v/uut - huffman_encoder_v5/U_vlc_table - vlc_table_v3</ClosedNode>
+         <ClosedNode>/huffman_encoder_v5 F:|LZ4|mix_compress|mix_compress_v1|RTL_huffman|huffman_encoder_v5.v</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_lz4|mix_compression_top.v/U_huffman_encoder - huffman_encoder_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top F:|LZ4|mix_compress|mix_compress_v1|RTL_lz4|mix_compression_top.v/U_lz4 - lz4_top_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb E:|Xilinx_Project|LZ4_projects|mix_compression|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v4</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb E:|Xilinx_Project|LZ4_projects|mix_compression|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v5</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb E:|Xilinx_Project|LZ4_projects|mix_compression|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_lz4 - lz4_top_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb E:|xilinx_project|LZ4_proj|mix_compression|mix_compress_v1|simulation|mix_compression_top_tb.v</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v3/U_bit_len_gen - bit_len_gen</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v3/U_bl_table - bl_table</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v3/U_encode - encode_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v3/U_freq_ram_256x18bit - freq_ram_256x18bit</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v3/U_heap_sorter - heap_sorter_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v3/U_little_root_heap - little_root_heap</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v3/U_tree_build - tree_build</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v3/U_vlc_table - vlc_table_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v4</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v4/U_bit_len_gen - bit_len_gen</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v4/U_bl_table - bl_table</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v4/U_encode - encode_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v4/U_encode - encode_v3/U_code_lookup_1 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v4/U_encode - encode_v3/U_code_lookup_2 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v4/U_encode - encode_v3/U_code_lookup_3 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v4/U_encode - encode_v3/U_code_lookup_4 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v4/U_freq_ram_256x18bit - freq_ram_256x18bit</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v4/U_heap_sorter - heap_sorter_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v4/U_little_root_heap - little_root_heap</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v4/U_tree_build - tree_build</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v4/U_vlc_table - vlc_table_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v5</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v5/U_bit_len_gen - bit_len_gen</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v5/U_bl_table - bl_table</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v5/U_encode - encode_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v5/U_encode - encode_v3/U_code_lookup_1 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v5/U_encode - encode_v3/U_code_lookup_2 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v5/U_encode - encode_v3/U_code_lookup_3 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v5/U_encode - encode_v3/U_code_lookup_4 - code_lookup_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v5/U_freq_ram_256x18bit - freq_ram_256x18bit</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v5/U_heap_sorter - heap_sorter_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v5/U_little_root_heap - little_root_heap</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v5/U_tree_build - tree_build_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_huffman_encoder - huffman_encoder_v5/U_vlc_table - vlc_table_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_lz4 - lz4_top_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_lz4 - lz4_top_v3/U_byte_addressing - byte_addressing_v4</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_lz4 - lz4_top_v3/U_hash_table - hash_table_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_lz4 - lz4_top_v3/U_lz4_buffer - lz4_buffer_v2</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_lz4 - lz4_top_v3/U_lz4_encoder - lz4_encoder_v3/U_unmatch_fifo - unmatch_fifo_v3</ClosedNode>
+         <ClosedNode>/mix_compression_top_tb F:|LZ4|mix_compress|mix_compress_v1|simulation|mix_compression_top_tb.v/uut - mix_compression_top/U_lz4 - lz4_top_v3/U_xxh32_calc - xxh32_calc_v2</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>mix_compression_top_tb (F:/LZ4/mix_compress/mix_compress_v1/simulation/mix_compression_top_tb.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000023d000000020000000000000000000000000200000064ffffffff0000008100000003000000020000023d0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>mix_compression_top_tb (F:/LZ4/mix_compress/mix_compress_v1/simulation/mix_compression_top_tb.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000191000000010000000100000000000000000000000064ffffffff000000810000000000000001000001910000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000231000000010000000100000000000000000000000064ffffffff000000810000000000000001000002310000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000191000000010000000100000000000000000000000064ffffffff000000810000000000000001000001910000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000013c0000010b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+</Project>

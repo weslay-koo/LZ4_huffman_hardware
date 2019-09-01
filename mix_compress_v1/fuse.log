@@ -1,0 +1,466 @@
+Running: d:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/LZ4/mix_compress/mix_compress_v1/mix_compression_top_tb_isim_beh.exe -prj F:/LZ4/mix_compress/mix_compress_v1/mix_compression_top_tb_beh.prj work.mix_compression_top_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/ipcores/hash_pll.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/ipcores/hash_mul32x32.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/ipcores/xxh32_mul.v" into library work
+WARNING:HDLCompiler:687 - "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/ipcores/xxh32_mul.v" Line 1534: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/ipcores/bram_16x20bit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/ipcores/unmatch_ram_4Kx32bit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/ipcores/hash_ram_32Kx64bit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/ipcores/fifo_8kx34bit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/ipcores/bram_512x47bit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/node_unit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/ipcores/ram_16x9bit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/fifo_16x20bit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/dff_array.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/compare_unit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/unmatch_fifo_v3.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/shifter_prefetch.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/shifter_match.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/shifter_96bit_v3.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/ipcores/fifo_16x32b.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/ipcores/buffer_ram32Kx32bit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/hash_match.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/hash_4port_32Kx65bit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/fifo_512x47bit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/encode_glue.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/vlc_glue_v4.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/select_network.v" into library work
+WARNING:HDLCompiler:693 - "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/select_network.v" Line 43: Parameter declaration becomes local in select_network with formal parameter declaration list
+WARNING:HDLCompiler:693 - "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/select_network.v" Line 44: Parameter declaration becomes local in select_network with formal parameter declaration list
+WARNING:HDLCompiler:693 - "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/select_network.v" Line 45: Parameter declaration becomes local in select_network with formal parameter declaration list
+WARNING:HDLCompiler:693 - "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/select_network.v" Line 46: Parameter declaration becomes local in select_network with formal parameter declaration list
+WARNING:HDLCompiler:693 - "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/select_network.v" Line 47: Parameter declaration becomes local in select_network with formal parameter declaration list
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/reg_array_16x9bit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/ipcores/ram_a128x4_b32x16bit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/ipcores/ram_256x20bit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/ipcores/ram_256x18bit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/ipcores/ram_256x10bit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/ipcores/ram_128x8bit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/ipcores/ram_128x36bit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/ipcores/fifo_8kx32bit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/ipcores/bram_16x16bit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/code_lookup_v2.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/xxh32_calc_v2.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/lz4_encoder_v3.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/lz4_buffer_v2.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/hash_table_v3.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/control_fsm_v3.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/byte_addressing_v4.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/abs_addr_gen_v3.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/vlc_table_v3.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/tree_build_v3.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/little_root_heap.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/ipcores/fifo_16kx32bit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/heap_sorter_v3.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/freq_ram_256x18bit.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/encode_v3.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/bl_table.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/bit_len_gen.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_mux/cascade_logic.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/lz4_top_v3.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_huffman/huffman_encoder_v5.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/RTL_mux/mix_compression_top.v" into library work
+Analyzing Verilog file "F:/LZ4/mix_compress/mix_compress_v1/simulation/mix_compression_top_tb.v" into library work
+Analyzing Verilog file "d:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+WARNING:HDLCompiler:687 - "d:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module <glbl>.
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/lz4_top_v3.v" Line 201: Port ram_omask is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/LZ4/mix_compress/mix_compress_v1/RTL_lz4/lz4_top_v3.v" Line 250: Port shifter_overflow is not connected to this instance
+Completed static elaboration
+Compiling module control_fsm_v3
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_AXI_TYPE=1,C_...
+Compiling module buffer_ram32Kx32bit
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_AXI_TYPE=1,C_...
+Compiling module bram_512x47bit
+Compiling module fifo_512x47bit
+Compiling module lz4_buffer_v2
+Compiling module abs_addr_gen_v3
+Compiling module shifter_96bit_v3
+Compiling module shifter_prefetch
+Compiling module byte_addressing_v4
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_AXI_TYPE=1,C_...
+Compiling module hash_ram_32Kx64bit
+Compiling module hash_4port_32Kx65bit
+Compiling module hash_match
+Compiling module shifter_match
+Compiling module FDR
+Compiling module DSP48E1(ACASCREG=0,ADREG=0,ALUMO...
+Compiling module DSP48E1(ACASCREG=0,ADREG=0,ALUMO...
+Compiling module DSP48E1(ACASCREG=0,ADREG=0,ALUMO...
+Compiling module GND
+Compiling module VCC
+Compiling module hash_mul32x32
+Compiling module hash_table_v3
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_AXI_TYPE=1,C_...
+Compiling module unmatch_ram_4Kx32bit
+Compiling module unmatch_fifo_v3
+Compiling module fifo_generator_v9_3_bhv_ver_ss(C...
+Compiling module FIFO_GENERATOR_V9_3_CONV_VER(C_C...
+Compiling module FIFO_GENERATOR_V9_3(C_COMMON_CLO...
+Compiling module fifo_8kx34bit
+Compiling module encode_glue_v2
+Compiling module lz4_encoder_v3
+Compiling module xxh32_mul
+Compiling module fifo_generator_v9_3_bhv_ver_ss(C...
+Compiling module FIFO_GENERATOR_V9_3_CONV_VER(C_C...
+Compiling module FIFO_GENERATOR_V9_3(C_COMMON_CLO...
+Compiling module fifo_16x32b
+Compiling module xxh32_calc_v2
+Compiling module MMCM_ADV(CLKOUT1_DIVIDE=2,DIVCLK...
+Compiling module BUFG
+Compiling module hash_pll
+Compiling module lz4_top_v3
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_AXI_TYPE=1,C_...
+Compiling module ram_256x18bit
+Compiling module freq_ram_256x18bit
+Compiling module node_unit(UNIT_NUMBER=0)
+Compiling module node_unit(UNIT_NUMBER=1)
+Compiling module node_unit(UNIT_NUMBER=2)
+Compiling module node_unit(UNIT_NUMBER=3)
+Compiling module node_unit(UNIT_NUMBER=4)
+Compiling module node_unit(UNIT_NUMBER=5)
+Compiling module node_unit(UNIT_NUMBER=6)
+Compiling module node_unit(UNIT_NUMBER=7)
+Compiling module node_unit(UNIT_NUMBER=8)
+Compiling module node_unit(UNIT_NUMBER=9)
+Compiling module node_unit(UNIT_NUMBER=10)
+Compiling module node_unit(UNIT_NUMBER=11)
+Compiling module node_unit(UNIT_NUMBER=12)
+Compiling module node_unit(UNIT_NUMBER=13)
+Compiling module node_unit(UNIT_NUMBER=14)
+Compiling module node_unit(UNIT_NUMBER=15)
+Compiling module node_unit(UNIT_NUMBER=16)
+Compiling module node_unit(UNIT_NUMBER=17)
+Compiling module node_unit(UNIT_NUMBER=18)
+Compiling module node_unit(UNIT_NUMBER=19)
+Compiling module node_unit(UNIT_NUMBER=20)
+Compiling module node_unit(UNIT_NUMBER=21)
+Compiling module node_unit(UNIT_NUMBER=22)
+Compiling module node_unit(UNIT_NUMBER=23)
+Compiling module node_unit(UNIT_NUMBER=24)
+Compiling module node_unit(UNIT_NUMBER=25)
+Compiling module node_unit(UNIT_NUMBER=26)
+Compiling module node_unit(UNIT_NUMBER=27)
+Compiling module node_unit(UNIT_NUMBER=28)
+Compiling module node_unit(UNIT_NUMBER=29)
+Compiling module node_unit(UNIT_NUMBER=30)
+Compiling module node_unit(UNIT_NUMBER=31)
+Compiling module node_unit(UNIT_NUMBER=32)
+Compiling module node_unit(UNIT_NUMBER=33)
+Compiling module node_unit(UNIT_NUMBER=34)
+Compiling module node_unit(UNIT_NUMBER=35)
+Compiling module node_unit(UNIT_NUMBER=36)
+Compiling module node_unit(UNIT_NUMBER=37)
+Compiling module node_unit(UNIT_NUMBER=38)
+Compiling module node_unit(UNIT_NUMBER=39)
+Compiling module node_unit(UNIT_NUMBER=40)
+Compiling module node_unit(UNIT_NUMBER=41)
+Compiling module node_unit(UNIT_NUMBER=42)
+Compiling module node_unit(UNIT_NUMBER=43)
+Compiling module node_unit(UNIT_NUMBER=44)
+Compiling module node_unit(UNIT_NUMBER=45)
+Compiling module node_unit(UNIT_NUMBER=46)
+Compiling module node_unit(UNIT_NUMBER=47)
+Compiling module node_unit(UNIT_NUMBER=48)
+Compiling module node_unit(UNIT_NUMBER=49)
+Compiling module node_unit(UNIT_NUMBER=50)
+Compiling module node_unit(UNIT_NUMBER=51)
+Compiling module node_unit(UNIT_NUMBER=52)
+Compiling module node_unit(UNIT_NUMBER=53)
+Compiling module node_unit(UNIT_NUMBER=54)
+Compiling module node_unit(UNIT_NUMBER=55)
+Compiling module node_unit(UNIT_NUMBER=56)
+Compiling module node_unit(UNIT_NUMBER=57)
+Compiling module node_unit(UNIT_NUMBER=58)
+Compiling module node_unit(UNIT_NUMBER=59)
+Compiling module node_unit(UNIT_NUMBER=60)
+Compiling module node_unit(UNIT_NUMBER=61)
+Compiling module node_unit(UNIT_NUMBER=62)
+Compiling module node_unit(UNIT_NUMBER=63)
+Compiling module node_unit(UNIT_NUMBER=64)
+Compiling module node_unit(UNIT_NUMBER=65)
+Compiling module node_unit(UNIT_NUMBER=66)
+Compiling module node_unit(UNIT_NUMBER=67)
+Compiling module node_unit(UNIT_NUMBER=68)
+Compiling module node_unit(UNIT_NUMBER=69)
+Compiling module node_unit(UNIT_NUMBER=70)
+Compiling module node_unit(UNIT_NUMBER=71)
+Compiling module node_unit(UNIT_NUMBER=72)
+Compiling module node_unit(UNIT_NUMBER=73)
+Compiling module node_unit(UNIT_NUMBER=74)
+Compiling module node_unit(UNIT_NUMBER=75)
+Compiling module node_unit(UNIT_NUMBER=76)
+Compiling module node_unit(UNIT_NUMBER=77)
+Compiling module node_unit(UNIT_NUMBER=78)
+Compiling module node_unit(UNIT_NUMBER=79)
+Compiling module node_unit(UNIT_NUMBER=80)
+Compiling module node_unit(UNIT_NUMBER=81)
+Compiling module node_unit(UNIT_NUMBER=82)
+Compiling module node_unit(UNIT_NUMBER=83)
+Compiling module node_unit(UNIT_NUMBER=84)
+Compiling module node_unit(UNIT_NUMBER=85)
+Compiling module node_unit(UNIT_NUMBER=86)
+Compiling module node_unit(UNIT_NUMBER=87)
+Compiling module node_unit(UNIT_NUMBER=88)
+Compiling module node_unit(UNIT_NUMBER=89)
+Compiling module node_unit(UNIT_NUMBER=90)
+Compiling module node_unit(UNIT_NUMBER=91)
+Compiling module node_unit(UNIT_NUMBER=92)
+Compiling module node_unit(UNIT_NUMBER=93)
+Compiling module node_unit(UNIT_NUMBER=94)
+Compiling module node_unit(UNIT_NUMBER=95)
+Compiling module node_unit(UNIT_NUMBER=96)
+Compiling module node_unit(UNIT_NUMBER=97)
+Compiling module node_unit(UNIT_NUMBER=98)
+Compiling module node_unit(UNIT_NUMBER=99)
+Compiling module node_unit(UNIT_NUMBER=100)
+Compiling module node_unit(UNIT_NUMBER=101)
+Compiling module node_unit(UNIT_NUMBER=102)
+Compiling module node_unit(UNIT_NUMBER=103)
+Compiling module node_unit(UNIT_NUMBER=104)
+Compiling module node_unit(UNIT_NUMBER=105)
+Compiling module node_unit(UNIT_NUMBER=106)
+Compiling module node_unit(UNIT_NUMBER=107)
+Compiling module node_unit(UNIT_NUMBER=108)
+Compiling module node_unit(UNIT_NUMBER=109)
+Compiling module node_unit(UNIT_NUMBER=110)
+Compiling module node_unit(UNIT_NUMBER=111)
+Compiling module node_unit(UNIT_NUMBER=112)
+Compiling module node_unit(UNIT_NUMBER=113)
+Compiling module node_unit(UNIT_NUMBER=114)
+Compiling module node_unit(UNIT_NUMBER=115)
+Compiling module node_unit(UNIT_NUMBER=116)
+Compiling module node_unit(UNIT_NUMBER=117)
+Compiling module node_unit(UNIT_NUMBER=118)
+Compiling module node_unit(UNIT_NUMBER=119)
+Compiling module node_unit(UNIT_NUMBER=120)
+Compiling module node_unit(UNIT_NUMBER=121)
+Compiling module node_unit(UNIT_NUMBER=122)
+Compiling module node_unit(UNIT_NUMBER=123)
+Compiling module node_unit(UNIT_NUMBER=124)
+Compiling module node_unit(UNIT_NUMBER=125)
+Compiling module node_unit(UNIT_NUMBER=126)
+Compiling module node_unit(UNIT_NUMBER=127)
+Compiling module node_unit(UNIT_NUMBER=128)
+Compiling module node_unit(UNIT_NUMBER=129)
+Compiling module node_unit(UNIT_NUMBER=130)
+Compiling module node_unit(UNIT_NUMBER=131)
+Compiling module node_unit(UNIT_NUMBER=132)
+Compiling module node_unit(UNIT_NUMBER=133)
+Compiling module node_unit(UNIT_NUMBER=134)
+Compiling module node_unit(UNIT_NUMBER=135)
+Compiling module node_unit(UNIT_NUMBER=136)
+Compiling module node_unit(UNIT_NUMBER=137)
+Compiling module node_unit(UNIT_NUMBER=138)
+Compiling module node_unit(UNIT_NUMBER=139)
+Compiling module node_unit(UNIT_NUMBER=140)
+Compiling module node_unit(UNIT_NUMBER=141)
+Compiling module node_unit(UNIT_NUMBER=142)
+Compiling module node_unit(UNIT_NUMBER=143)
+Compiling module node_unit(UNIT_NUMBER=144)
+Compiling module node_unit(UNIT_NUMBER=145)
+Compiling module node_unit(UNIT_NUMBER=146)
+Compiling module node_unit(UNIT_NUMBER=147)
+Compiling module node_unit(UNIT_NUMBER=148)
+Compiling module node_unit(UNIT_NUMBER=149)
+Compiling module node_unit(UNIT_NUMBER=150)
+Compiling module node_unit(UNIT_NUMBER=151)
+Compiling module node_unit(UNIT_NUMBER=152)
+Compiling module node_unit(UNIT_NUMBER=153)
+Compiling module node_unit(UNIT_NUMBER=154)
+Compiling module node_unit(UNIT_NUMBER=155)
+Compiling module node_unit(UNIT_NUMBER=156)
+Compiling module node_unit(UNIT_NUMBER=157)
+Compiling module node_unit(UNIT_NUMBER=158)
+Compiling module node_unit(UNIT_NUMBER=159)
+Compiling module node_unit(UNIT_NUMBER=160)
+Compiling module node_unit(UNIT_NUMBER=161)
+Compiling module node_unit(UNIT_NUMBER=162)
+Compiling module node_unit(UNIT_NUMBER=163)
+Compiling module node_unit(UNIT_NUMBER=164)
+Compiling module node_unit(UNIT_NUMBER=165)
+Compiling module node_unit(UNIT_NUMBER=166)
+Compiling module node_unit(UNIT_NUMBER=167)
+Compiling module node_unit(UNIT_NUMBER=168)
+Compiling module node_unit(UNIT_NUMBER=169)
+Compiling module node_unit(UNIT_NUMBER=170)
+Compiling module node_unit(UNIT_NUMBER=171)
+Compiling module node_unit(UNIT_NUMBER=172)
+Compiling module node_unit(UNIT_NUMBER=173)
+Compiling module node_unit(UNIT_NUMBER=174)
+Compiling module node_unit(UNIT_NUMBER=175)
+Compiling module node_unit(UNIT_NUMBER=176)
+Compiling module node_unit(UNIT_NUMBER=177)
+Compiling module node_unit(UNIT_NUMBER=178)
+Compiling module node_unit(UNIT_NUMBER=179)
+Compiling module node_unit(UNIT_NUMBER=180)
+Compiling module node_unit(UNIT_NUMBER=181)
+Compiling module node_unit(UNIT_NUMBER=182)
+Compiling module node_unit(UNIT_NUMBER=183)
+Compiling module node_unit(UNIT_NUMBER=184)
+Compiling module node_unit(UNIT_NUMBER=185)
+Compiling module node_unit(UNIT_NUMBER=186)
+Compiling module node_unit(UNIT_NUMBER=187)
+Compiling module node_unit(UNIT_NUMBER=188)
+Compiling module node_unit(UNIT_NUMBER=189)
+Compiling module node_unit(UNIT_NUMBER=190)
+Compiling module node_unit(UNIT_NUMBER=191)
+Compiling module node_unit(UNIT_NUMBER=192)
+Compiling module node_unit(UNIT_NUMBER=193)
+Compiling module node_unit(UNIT_NUMBER=194)
+Compiling module node_unit(UNIT_NUMBER=195)
+Compiling module node_unit(UNIT_NUMBER=196)
+Compiling module node_unit(UNIT_NUMBER=197)
+Compiling module node_unit(UNIT_NUMBER=198)
+Compiling module node_unit(UNIT_NUMBER=199)
+Compiling module node_unit(UNIT_NUMBER=200)
+Compiling module node_unit(UNIT_NUMBER=201)
+Compiling module node_unit(UNIT_NUMBER=202)
+Compiling module node_unit(UNIT_NUMBER=203)
+Compiling module node_unit(UNIT_NUMBER=204)
+Compiling module node_unit(UNIT_NUMBER=205)
+Compiling module node_unit(UNIT_NUMBER=206)
+Compiling module node_unit(UNIT_NUMBER=207)
+Compiling module node_unit(UNIT_NUMBER=208)
+Compiling module node_unit(UNIT_NUMBER=209)
+Compiling module node_unit(UNIT_NUMBER=210)
+Compiling module node_unit(UNIT_NUMBER=211)
+Compiling module node_unit(UNIT_NUMBER=212)
+Compiling module node_unit(UNIT_NUMBER=213)
+Compiling module node_unit(UNIT_NUMBER=214)
+Compiling module node_unit(UNIT_NUMBER=215)
+Compiling module node_unit(UNIT_NUMBER=216)
+Compiling module node_unit(UNIT_NUMBER=217)
+Compiling module node_unit(UNIT_NUMBER=218)
+Compiling module node_unit(UNIT_NUMBER=219)
+Compiling module node_unit(UNIT_NUMBER=220)
+Compiling module node_unit(UNIT_NUMBER=221)
+Compiling module node_unit(UNIT_NUMBER=222)
+Compiling module node_unit(UNIT_NUMBER=223)
+Compiling module node_unit(UNIT_NUMBER=224)
+Compiling module node_unit(UNIT_NUMBER=225)
+Compiling module node_unit(UNIT_NUMBER=226)
+Compiling module node_unit(UNIT_NUMBER=227)
+Compiling module node_unit(UNIT_NUMBER=228)
+Compiling module node_unit(UNIT_NUMBER=229)
+Compiling module node_unit(UNIT_NUMBER=230)
+Compiling module node_unit(UNIT_NUMBER=231)
+Compiling module node_unit(UNIT_NUMBER=232)
+Compiling module node_unit(UNIT_NUMBER=233)
+Compiling module node_unit(UNIT_NUMBER=234)
+Compiling module node_unit(UNIT_NUMBER=235)
+Compiling module node_unit(UNIT_NUMBER=236)
+Compiling module node_unit(UNIT_NUMBER=237)
+Compiling module node_unit(UNIT_NUMBER=238)
+Compiling module node_unit(UNIT_NUMBER=239)
+Compiling module node_unit(UNIT_NUMBER=240)
+Compiling module node_unit(UNIT_NUMBER=241)
+Compiling module node_unit(UNIT_NUMBER=242)
+Compiling module node_unit(UNIT_NUMBER=243)
+Compiling module node_unit(UNIT_NUMBER=244)
+Compiling module node_unit(UNIT_NUMBER=245)
+Compiling module node_unit(UNIT_NUMBER=246)
+Compiling module node_unit(UNIT_NUMBER=247)
+Compiling module node_unit(UNIT_NUMBER=248)
+Compiling module node_unit(UNIT_NUMBER=249)
+Compiling module node_unit(UNIT_NUMBER=250)
+Compiling module node_unit(UNIT_NUMBER=251)
+Compiling module node_unit(UNIT_NUMBER=252)
+Compiling module node_unit(UNIT_NUMBER=253)
+Compiling module node_unit(UNIT_NUMBER=254)
+Compiling module node_unit(UNIT_NUMBER=255)
+Compiling module compare_unit
+Compiling module dff_array
+Compiling module select_network_default
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_AXI_TYPE=1,C_...
+Compiling module ram_128x36bit
+Compiling module heap_sorter_v3
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_AXI_TYPE=1,C_...
+Compiling module ram_256x10bit
+Compiling module tree_build_v3
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_AXI_TYPE=1,C_...
+Compiling module ram_128x8bit
+Compiling module little_root_heap
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_AXI_TYPE=1,C_...
+Compiling module ram_16x9bit
+Compiling module reg_array_16x9bit
+Compiling module bit_len_gen
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_AXI_TYPE=1,C_...
+Compiling module bram_16x16bit
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_AXI_TYPE=1,C_...
+Compiling module ram_256x20bit
+Compiling module vlc_table_v3
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_AXI_TYPE=1,C_...
+Compiling module ram_a128x4_b32x16bit
+Compiling module bl_table
+Compiling module fifo_generator_v9_3_bhv_ver_ss(C...
+Compiling module FIFO_GENERATOR_V9_3_CONV_VER(C_C...
+Compiling module FIFO_GENERATOR_V9_3(C_COMMON_CLO...
+Compiling module fifo_16kx32bit
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_AXI_TYPE=1,C_...
+Compiling module bram_16x20bit
+Compiling module fifo_16x20bit
+Compiling module code_lookup_v2
+Compiling module vlc_glue_v4
+Compiling module fifo_generator_v9_3_bhv_ver_ss(C...
+Compiling module FIFO_GENERATOR_V9_3_CONV_VER(C_C...
+Compiling module FIFO_GENERATOR_V9_3(C_COMMON_CLO...
+Compiling module fifo_8kx32bit
+Compiling module encode_v3
+Compiling module huffman_encoder_v5
+Compiling module cascade_logic
+Compiling module mix_compression_top
+Compiling module mix_compression_top_tb
+WARNING:Simulator:918 - "F:/LZ4/mix_compress/mix_compress_v1/simulation/mix_compression_top_tb.v" Line 376. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf()
+WARNING:Simulator:918 - "F:/LZ4/mix_compress/mix_compress_v1/simulation/mix_compression_top_tb.v" Line 524. System function $value$plusargs is used as system task. This system function should have a LHS e.g. x=$value$plusargs()
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 351 sub-compilation(s) to finish...
+Compiled 385 Verilog Units
+Built simulation executable F:/LZ4/mix_compress/mix_compress_v1/mix_compression_top_tb_isim_beh.exe
+Fuse Memory Usage: 65276 KB
+Fuse CPU Usage: 7191 ms

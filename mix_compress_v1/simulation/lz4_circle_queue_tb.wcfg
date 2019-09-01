@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/Xilinx_project/lz4_new_v2/lz4_new/lz4_circle_queue_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="lz4_circle_queue_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="43" />
+   <wvobject fp_name="/lz4_circle_queue_tb/ram_odata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_odata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_odata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/ram_omask" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_omask[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_omask[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/ram_ovalid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_ovalid</obj_property>
+      <obj_property name="ObjectShortName">ram_ovalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/outofrange" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">outofrange</obj_property>
+      <obj_property name="ObjectShortName">outofrange</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/buf_full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">buf_full</obj_property>
+      <obj_property name="ObjectShortName">buf_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/rstN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstN</obj_property>
+      <obj_property name="ObjectShortName">rstN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/compress_start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">compress_start</obj_property>
+      <obj_property name="ObjectShortName">compress_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/compress_done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">compress_done</obj_property>
+      <obj_property name="ObjectShortName">compress_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/matching" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">matching</obj_property>
+      <obj_property name="ObjectShortName">matching</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/seg_done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">seg_done</obj_property>
+      <obj_property name="ObjectShortName">seg_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/move_dist" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">move_dist[2:0]</obj_property>
+      <obj_property name="ObjectShortName">move_dist[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/uut/ram_wea" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_wea</obj_property>
+      <obj_property name="ObjectShortName">ram_wea</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/uut/ram_addra" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_addra[14:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addra[14:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/uut/ram_dina" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_dina[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_dina[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/uut/ram_douta" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_douta[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_douta[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/uut/ram_web" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_web</obj_property>
+      <obj_property name="ObjectShortName">ram_web</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/uut/ram_addrb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_addrb[14:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addrb[14:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/uut/ram_dinb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_dinb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_dinb[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/uut/ram_doutb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_doutb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_doutb[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/wr_req" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_req</obj_property>
+      <obj_property name="ObjectShortName">wr_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/idata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">idata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">idata[31:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/ram_rd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_rd</obj_property>
+      <obj_property name="ObjectShortName">ram_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/uut/current_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/uut/next_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/uut/init_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">init_cnt[16:0]</obj_property>
+      <obj_property name="ObjectShortName">init_cnt[16:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/uut/seg_done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">seg_done</obj_property>
+      <obj_property name="ObjectShortName">seg_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/uut/matching" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">matching</obj_property>
+      <obj_property name="ObjectShortName">matching</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/uut/move_dist" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">move_dist[2:0]</obj_property>
+      <obj_property name="ObjectShortName">move_dist[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/uut/init_done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">init_done</obj_property>
+      <obj_property name="ObjectShortName">init_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/fifo_odata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fifo_odata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_odata[31:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/fifo_rd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fifo_rd</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/fifo_ovalid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fifo_ovalid</obj_property>
+      <obj_property name="ObjectShortName">fifo_ovalid</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/fifo_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fifo_count[14:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_count[14:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/fifo_empty" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_empty</obj_property>
+      <obj_property name="label">fifo_empty</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/ram_abs_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_abs_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_abs_addr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/uut/relate_Baddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">relate_Baddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">relate_Baddr[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/uut/head_Baddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">head_Baddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">head_Baddr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/uut/anchor_Baddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">anchor_Baddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">anchor_Baddr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/uut/queue_head" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">queue_head[14:0]</obj_property>
+      <obj_property name="ObjectShortName">queue_head[14:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/uut/queue_tail" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">queue_tail[14:0]</obj_property>
+      <obj_property name="ObjectShortName">queue_tail[14:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_circle_queue_tb/uut/update_pointer" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">update_pointer[14:0]</obj_property>
+      <obj_property name="ObjectShortName">update_pointer[14:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+</wave_config>

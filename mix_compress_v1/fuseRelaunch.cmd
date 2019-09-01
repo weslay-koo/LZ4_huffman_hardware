@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/LZ4/mix_compress/mix_compress_v1/mix_compression_top_tb_isim_beh.exe" -prj "F:/LZ4/mix_compress/mix_compress_v1/mix_compression_top_tb_beh.prj" "work.mix_compression_top_tb" "work.glbl" 

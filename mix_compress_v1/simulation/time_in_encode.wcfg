@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/xilinx_project/LZ4_proj/lz4_new_v4/lz4_new/lz4_top_tb_v2_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="lz4_top_tb_v2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="48" />
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/rstN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstN</obj_property>
+      <obj_property name="ObjectShortName">rstN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/start_compress" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start_compress</obj_property>
+      <obj_property name="ObjectShortName">start_compress</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/file_len_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">file_len_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">file_len_reg[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/file_len_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">file_len_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">file_len_cnt[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/current_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/compress_start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">compress_start</obj_property>
+      <obj_property name="ObjectShortName">compress_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/compress_done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">compress_done</obj_property>
+      <obj_property name="ObjectShortName">compress_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/encode_en_reg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">encode_en_reg</obj_property>
+      <obj_property name="ObjectShortName">encode_en_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/encode_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">encode_en</obj_property>
+      <obj_property name="ObjectShortName">encode_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/encode_frame_undone" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">encode_frame_undone</obj_property>
+      <obj_property name="ObjectShortName">encode_frame_undone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/info_valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">info_valid</obj_property>
+      <obj_property name="ObjectShortName">info_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/wait_encode_reg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wait_encode_reg</obj_property>
+      <obj_property name="ObjectShortName">wait_encode_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/match_offset" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">match_offset[15:0]</obj_property>
+      <obj_property name="ObjectShortName">match_offset[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/match_length" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">match_length[31:0]</obj_property>
+      <obj_property name="ObjectShortName">match_length[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/unmatch_length" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">unmatch_length[31:0]</obj_property>
+      <obj_property name="ObjectShortName">unmatch_length[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/ignore_offset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ignore_offset</obj_property>
+      <obj_property name="ObjectShortName">ignore_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/in_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_data[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/in_empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_empty</obj_property>
+      <obj_property name="ObjectShortName">in_empty</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/in_full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_full</obj_property>
+      <obj_property name="ObjectShortName">in_full</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/in_valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_valid</obj_property>
+      <obj_property name="ObjectShortName">in_valid</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/match_distance_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">match_distance_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">match_distance_cnt[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/match_length_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">match_length_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">match_length_cnt[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/unmatch_length_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">unmatch_length_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">unmatch_length_cnt[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/current_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/xxh32_dword" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">xxh32_dword[31:0]</obj_property>
+      <obj_property name="ObjectShortName">xxh32_dword[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/encode_done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">encode_done</obj_property>
+      <obj_property name="ObjectShortName">encode_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/seg_done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">seg_done</obj_property>
+      <obj_property name="ObjectShortName">seg_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/last_5bytes" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">last_5bytes</obj_property>
+      <obj_property name="ObjectShortName">last_5bytes</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/last_5bytes_temp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">last_5bytes_temp</obj_property>
+      <obj_property name="ObjectShortName">last_5bytes_temp</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/sep_mask" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sep_mask[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sep_mask[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_control_fsm/last_seg_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">last_seg_en</obj_property>
+      <obj_property name="ObjectShortName">last_seg_en</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/sep_valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sep_valid</obj_property>
+      <obj_property name="ObjectShortName">sep_valid</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/sep_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sep_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sep_data[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/U_encode_glue/fifo_din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fifo_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_din[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/U_encode_glue/fifo_wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fifo_wr</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/U_encode_glue/U_encode_fifo/empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/U_unmatch_fifo/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/U_unmatch_fifo/empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/U_unmatch_fifo/full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/U_unmatch_fifo/wr_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/U_unmatch_fifo/rd_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/U_unmatch_fifo/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/U_unmatch_fifo/valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/current_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/unmatch_length_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">unmatch_length_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">unmatch_length_reg[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/unmatch_lit_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">unmatch_lit_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">unmatch_lit_cnt[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lz4_top_tb_v2/uut/U_lz4_encoder/unmatch_lit_cnt_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">unmatch_lit_cnt_en</obj_property>
+      <obj_property name="ObjectShortName">unmatch_lit_cnt_en</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+</wave_config>

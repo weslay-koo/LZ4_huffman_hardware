@@ -1,0 +1,29 @@
+Command line:
+   mix_compression_top_tb_isim_beh.exe
+     -testplusarg  NO=1835036
+     -simmode  tcl
+     -simrunnum  0
+     -socket  19614
+
+Wed May 03 00:55:53 2017
+
+
+ Elaboration Time: 0.686404 sec
+
+ Current Memory Usage: 1281.65 Meg
+
+ Total Signals          : 18010
+ Total Nets             : 82846
+ Total Signal Drivers   : 6783
+ Total Blocks           : 1655
+ Total Primitive Blocks : 1455
+ Total Processes        : 10763
+ Total Traceable Variables  : 16703
+ Total Scalar Nets and Variables : 5486330
+
+ Total Simulation Time: 75.0677 sec
+
+ Current Memory Usage: 1124.33 Meg
+
+Wed May 03 00:57:09 2017
+
